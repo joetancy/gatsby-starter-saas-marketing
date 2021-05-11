@@ -9,7 +9,6 @@ const Footer = () => (
       <FooterColumn>
         <span>Company</span>
         <ul>
-          <li>About Us</li>
           <li>Contact</li>
         </ul>
       </FooterColumn>
@@ -18,6 +17,7 @@ const Footer = () => (
         <ul>
           <li>Twitter</li>
           <li>Instagram</li>
+          <li>Facebook</li>
         </ul>
       </FooterColumn>
     </FooterColumnContainer>
@@ -29,8 +29,8 @@ const Footer = () => (
 
 const FooterWrapper = styled.footer`
   background-color: white;
-  margin: 80px 0 0;
-  padding: 0 0 80px;
+  margin: 120px 0 0;
+  padding: 80px 0 80px;
 `
 
 const Logo = styled.div`

@@ -16,7 +16,7 @@ const GetStarted = () => (
 export default GetStarted
 
 const StyledSection = styled(Section)`
-  background-color: ${props => props.theme.color.background.light};
+  background-color: #F0F0F2;
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
 `
 

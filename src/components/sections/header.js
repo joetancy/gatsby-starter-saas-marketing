@@ -8,7 +8,7 @@ import { Container } from "../global"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "favicon" }) {
+      file(sourceInstanceName: { eq: "product" }, name: { eq: "coins" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -18,20 +18,20 @@ const Header = () => {
     }
   `)
 
-  const handleSubmit = event => {
-    event.preventDefault()
-  }
-
   return (
     <HeaderWrapper id="top">
       <Container>
         <Flex>
           <HeaderTextGroup>
             <h1>
-              $HUAT COIN
+              $HUAT!
             </h1>
+            <br></br>
             <h2>
-              We're jumping on the local cryptocurrency scene to bring you this coin. In hopes that it brings you maximum $HUATness when you play your Blackjack. 
+              $HUAT coin is a deflationary semi-meme oriented cryptocurrency built for people like you and me who wish to make it big. 
+            </h2>
+            <h2>
+              We like to think that cryptocurrency should be made with fun and memes, go on, spread the $HUATs to everyone you know. 
             </h2>
           </HeaderTextGroup>
           <ImageWrapper>
@@ -47,7 +47,7 @@ const Header = () => {
 export default Header
 
 const HeaderWrapper = styled.header`
-  background-color: #f8f8f8;
+  background-color: #F0F0F2;
   padding: 160px 0 80px 0;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));

@@ -3,43 +3,27 @@ import styled from "styled-components"
 
 import { Section, Container } from "../global"
 
-const Tokenomics = () => (
-  <Section id="tokenomics">
+const Team = () => (
+  <Section id="team">
     <StyledContainer>
-      <SectionTitle>Only 888,888,888 in supply</SectionTitle>
+      <SectionTitle>Meet the team</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>8 Decimal Places</FeatureTitle>
+          <FeatureTitle>Lorem</FeatureTitle>
           <FeatureText>
-            Because we love the number 8.
+            Systems Analyst
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>5% To Hodlers</FeatureTitle>
+          <FeatureTitle>Ipsum</FeatureTitle>
           <FeatureText>
-           5% of each transaction will be automatically given to the token holder.
+           Security Professional
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automatic Liquid Pools</FeatureTitle>
+          <FeatureTitle>Dolor</FeatureTitle>
           <FeatureText>
-          5% of each transaction is automatically added to the liquidity pool.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Binance Smart Chain</FeatureTitle>
-          <FeatureText>
-            Developed on the Binance Smart Chain for DeFi applications.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>PancakeSwap</FeatureTitle>
-          <FeatureText>PancakeSwap as our swap provider.</FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Deflationary</FeatureTitle>
-          <FeatureText>
-          Every transaction charges transaction fees and burns tokens.
+          Security Consultant
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
@@ -47,7 +31,7 @@ const Tokenomics = () => (
   </Section>
 )
 
-export default Tokenomics
+export default Team
 
 const StyledContainer = styled(Container)``
 
@@ -70,7 +54,7 @@ const Subtitle = styled.h5`
 const FeaturesGrid = styled.div`
   max-width: 670px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0px auto;
   grid-column-gap: 40px;
   grid-row-gap: 35px;
