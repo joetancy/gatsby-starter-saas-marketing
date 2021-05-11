@@ -4,11 +4,11 @@ import styled from "styled-components"
 import { Container, Section } from "../global"
 
 const GetStarted = () => (
-  <StyledSection>
+  <StyledSection id="buy">
     <GetStartedContainer>
-      <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
-      <TryItButton>Get early access</TryItButton>
-      <Subtitle>No credit card required.</Subtitle>
+      <GetStartedTitle>Buy $HUAT</GetStartedTitle>
+      <TryItButton>Get it on PancakeSwap v2 Now!</TryItButton>
+      {/* <Subtitle>No credit card required.</Subtitle> */}
     </GetStartedContainer>
   </StyledSection>
 )

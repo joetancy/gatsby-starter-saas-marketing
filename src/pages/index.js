@@ -8,13 +8,14 @@ import Header from "../components/sections/header"
 import Features from "../components/sections/features"
 import Footer from "../components/sections/footer"
 import GetStarted from "../components/sections/getstarted"
+import Tokenomics from "../components/sections/tokenomics"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Navigation />
     <Header />
-    <Features />
+    <Tokenomics />
     <GetStarted />
     <Footer />
   </Layout>
